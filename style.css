@@ -11,3 +11,30 @@ body {
   .header {
     background-color: blue;
   }
+
+  h1{
+	text-align: center
+  }
+  #ack-head {
+	text-align: center;
+	font-size: large;
+  }
+  #decoration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #abstraction-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  #column {
+	flex-basis: 50%;
+	text-align: left;
+  }
+  #abstraction-options {
+	color: darkred;
+  }

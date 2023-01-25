@@ -7,7 +7,7 @@
   <body>
     <div id="data-abstraction">
       <div class="info">
-        <h1 align="center">Dataset Types</h1>
+        <h1>Dataset Types</h1>
         <table>
           <tr class="header">
             <th>Data</th>
@@ -32,7 +32,7 @@
         </table>
       </div>
       <div class="info">
-        <h1 align="center">Data Types</h1>
+        <h1>Data Types</h1>
         <h2>UFO</h2>
         <ul>
           <li>Date: Date</li>
@@ -61,5 +61,57 @@
         </ul>
       </div>
     </div>
+
+    <div id="task-abstraction">
+      <h1>Task Abstraction</h1>
+      <div id="abstraction-flex">
+        <div id="column">
+          <img src="img/vis1.png" alt="Image 1">
+          <div id="abstraction-options">
+            <p>Low Level Task: Understanding the average maximum temperature in Vancouver in a given month</p>
+            <p>Medium Level Task: Getting the full range of possible temperatures (max - min)</p>
+            <p>High Level Task: Predict future temperatures</p>
+          </div>
+        </div>
+        <div id="column">
+          <img src="img/vis2.png" alt="Image 2">
+          <div id="abstraction-options">
+            <p>Low Level Task: Shows increase in incidence over time</p>
+            <p>Medium Level Task: Analyze rolling average value and its increase</p>
+            <p>High Level Task: Project future occurences of temperature increases</p>
+          </div>
+      </div>
+    </div>
+    <div id = "decoration">
+        <svg width = "100%" height = "100%">
+            <circle cx = "25%" cy="50%" r="50" fill = "red" opacity="0.5" 
+            onmouseover="this.style.border = '20px solid black'" 
+            onmouseout = "this.style.border='0px'"/>
+            <rect x="50%" y="25%" width="50" height = "50" fill = "orange" 
+            stroke = "black" stroke-width = "2" onmouseover = "this.style.fill='purple'"
+            onmouseout = "this.style.fill = 'orange'" />
+            <circle cx="75%" cy="50%" r="50" fill = "yellow" opacity="0.5" 
+            onmouseover="this.style.border = '20px solid black'" 
+            onmouseout = "this.style.border='0px'"/>
+            <rect x="100" y="25%" width = "50" height = "50" fill = "blue"
+            stroke = "black" stroke-width = "2" onmouseover="this.style.fill = 'purple'"
+            onmouseout = "this.style.fill = 'blue'"/>
+        </svg>
+        </div>
+        
+        <h2 id="ack-head">Acknowledgements</h2>
+        <div>
+            <ul>
+              <li>https://www.w3schools.com/html/default.asp</li>
+              <li>https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox</li>
+            </ul>
+
+        </div>
+
+        
+            
+            
+        
+        
   </body>
 </html>
